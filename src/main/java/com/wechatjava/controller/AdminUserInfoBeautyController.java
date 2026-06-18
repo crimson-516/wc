@@ -12,9 +12,6 @@ import org.springframework.web.bind.annotation.RestController;
 import jakarta.annotation.Resource;
 import jakarta.validation.constraints.NotNull;
 
-/**
- * 靓号 Controller
- */
 @RestController("userInfoBeautyController")
 @RequestMapping("/admin")
 @Validated

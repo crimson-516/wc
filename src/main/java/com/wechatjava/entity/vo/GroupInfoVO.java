@@ -5,9 +5,7 @@ import com.wechatjava.entity.po.UserContact;
 
 import java.util.List;
 
-/**
- * @ClassName GroupInfoVO
- */
+
 public class GroupInfoVO {
     private GroupInfo groupInfo;
     private List<UserContact> userContactList;

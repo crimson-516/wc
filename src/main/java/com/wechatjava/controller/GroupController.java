@@ -24,10 +24,7 @@ import org.springframework.web.multipart.MultipartFile;
 
 import java.util.List;
 
-/**
- * @ClassName GroupController
- * @Description TODO
- */
+
 @RestController("groupController")
 @RequestMapping("/group")
 public class GroupController extends ABaseController {

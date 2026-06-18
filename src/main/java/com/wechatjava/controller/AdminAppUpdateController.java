@@ -26,9 +26,6 @@ public class AdminAppUpdateController extends ABaseController {
     @Resource
     private AppUpdateService appUpdateService;
 
-    /**
-     * 根据条件分页查询
-     */
     @RequestMapping("/loadUpdateList")
     @GlobalInterceptor(checkAdmin = true)
     public ResponseVO loadUpdateList(AppUpdateQuery query) {

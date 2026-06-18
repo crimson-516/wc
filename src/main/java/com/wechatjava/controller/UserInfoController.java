@@ -20,9 +20,6 @@ import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.Pattern;
 import java.io.IOException;
 
-/**
- * 账号信息 Controller
- */
 @RestController("userInfoController")
 @RequestMapping("/userInfo")
 public class UserInfoController extends ABaseController {
